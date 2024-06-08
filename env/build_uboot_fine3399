@@ -10,6 +10,6 @@ DT_FILE="rk3399-fine3399"
 
 # ATF
 # git clone https://github.com/ARM-software/arm-trusted-firmware.git
-# make CROSS_COMPILE=aarch64-linux-gnu- PLAT=rk3399
+# make CROSS_COMPILE=aarch64-none-linux-gnu- PLAT=rk3399
 ATF_PLAT="rk3399"
 export BL31=${SCRIPT_PATH}/u-boot/rockchip/common/rk3399_bl31.elf

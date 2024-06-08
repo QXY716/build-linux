@@ -72,7 +72,7 @@ build_atf() {
 	make clean
 	make distclean
 	git pull
-	make CROSS_COMPILE=aarch64-linux-gnu- PLAT=${ATF_PLAT}
+	make CROSS_COMPILE=aarch64-none-linux-gnu- PLAT=${ATF_PLAT}
 }
 
 build_probe() {
